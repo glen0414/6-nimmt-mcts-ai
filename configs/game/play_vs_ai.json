@@ -1,0 +1,14 @@
+{
+    "players": [
+        ["src.players.baselines.human_player", "HumanPlayer", {}, "You"],
+        ["src.players.depth2_mcts", "Depth2MCTSPlayer", {}, "Depth2MCTS"],
+        ["src.players.progressive_mcts", "ProgressiveMCTSPlayer", {}, "ProgressiveMCTS"],
+        ["src.players.baselines.greedy_player", "GreedyPlayer", {}, "Greedy"]
+    ],
+    "engine": {
+        "n_players": 4,
+        "n_rounds": 10,
+        "verbose": false
+    },
+    "num_games": 1
+}

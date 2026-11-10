@@ -1,0 +1,16 @@
+{
+    "players": [
+        ["src.players.depth2_mcts", "Depth2MCTSPlayer", {}, "Depth2MCTS"],
+        ["src.players.progressive_mcts", "ProgressiveMCTSPlayer", {}, "ProgressiveMCTS"],
+        ["src.players.baselines.greedy_player", "GreedyPlayer", {}, "Greedy"],
+        ["src.players.baselines.random_player", "RandomPlayer", {}, "Random"]
+    ],
+    "engine": {
+        "n_players": 4,
+        "n_rounds": 10,
+        "verbose": true,
+        "timeout": 1.0,
+        "timeout_buffer": 0.5
+    },
+    "num_games": 1
+}
